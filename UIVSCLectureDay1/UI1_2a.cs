@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace UIVSCLectureDay1
 {
-    public partial class UI1_1 : Form
+    public partial class Form1 : Form
     {
-        public UI1_1()
+        public Form1()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("My first message");
         }
     }
 }

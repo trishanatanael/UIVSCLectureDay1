@@ -1,6 +1,6 @@
 ﻿namespace UIVSCLectureDay1
 {
-    partial class UI1_1
+    partial class Form1
     {
         /// <summary>
         /// Required designer variable.
@@ -28,35 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // button1
-            // 
-            this.button1.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
-            this.button1.Location = new System.Drawing.Point(345, 320);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(271, 231);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Click Here";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // UI1_1
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1019, 563);
-            this.Controls.Add(this.button1);
-            this.Name = "UI1_1";
-            this.Text = "Form1";
+            this.BackColor = System.Drawing.SystemColors.Highlight;
+            this.ClientSize = new System.Drawing.Size(893, 587);
+            this.MinimizeBox = false;
+            this.Name = "Form1";
+            this.Text = "MyFirstForm";
             this.ResumeLayout(false);
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button1;
     }
 }
-
